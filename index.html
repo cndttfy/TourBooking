@@ -14,10 +14,9 @@
     <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
   <body>
-    <!-- Design -> Frontend -->
     <div class="container">
       <div class="main-slider">
-        <div class="navigation">
+        <header class="navigation">
           <div class="logo">
             <a href="/"><img src="/assets/img/Logo.png" alt="Logo" /></a>
           </div>
@@ -43,8 +42,9 @@
               </li>
             </ul>
           </div>
-        </div>
-        <div class="slider">
+        </header>
+        <!-- ===== Slider Destinations ===== -->
+        <section class="slider">
           <div class="slider-prev">
             <a class="btn">
               <i class="fa-solid fa-chevron-left"></i>
@@ -52,41 +52,56 @@
           </div>
 
           <div class="slider-wrapper">
-            <h1 class="slider-title">A Life Changing Journey</h1>
+            <h2 class="slider-title">A Life Changing Journey</h2>
             <p class="slider-desc">14 Days Pilgrimage & Leisure</p>
             <div class="booking">
-                <div class="booking-topic">
-                    <a href="javascript:{0}" onclick="Clicker(this)" class="booking-topic-item">PILGRIMAGE</a>
-                    <a href="javascript:{0}" onclick="Clicker(this)" class="booking-topic-item">TRAVEL</a>
-                    <a href="javascript:{0}" onclick="Clicker(this)" class="booking-topic-item active">TOURS</a>
-                </div>
-                <div class="booking-detail">
-                    <a href="" class="booking-detail-item">
-                        <i class="fa-solid fa-location-dot"></i>
-                        From
-                        <i class="fa-solid fa-arrow-down"></i>
-                    </a>
-                    <a href="" class="booking-detail-item">
-                        <i class="fa-solid fa-location-dot"></i>
-                        From
-                        <i class="fa-solid fa-arrow-down"></i>
-                    </a>
-                    <a href="" class="booking-detail-item">
-                        <i class="fa-solid fa-location-dot"></i>
-                        From
-                        <i class="fa-solid fa-arrow-down"></i>
-                    </a>
-                    <a href="" class="booking-detail-item">
-                        <i class="fa-solid fa-location-dot"></i>
-                        From
-                        <i class="fa-solid fa-arrow-down"></i>
-                    </a>
-                    <a href="" class="booking-detail-item">
-                        <i class="fa-solid fa-location-dot"></i>
-                        From
-                        <i class="fa-solid fa-arrow-down"></i>
-                    </a>
-                </div>
+              <div class="booking-topic">
+                <a
+                  href="javascript:{0}"
+                  onclick="Clicker(this)"
+                  class="booking-topic-item"
+                  >PILGRIMAGE</a
+                >
+                <a
+                  href="javascript:{0}"
+                  onclick="Clicker(this)"
+                  class="booking-topic-item"
+                  >TRAVEL</a
+                >
+                <a
+                  href="javascript:{0}"
+                  onclick="Clicker(this)"
+                  class="booking-topic-item active"
+                  >TOURS</a
+                >
+              </div>
+              <div class="booking-detail">
+                <a href="" class="booking-detail-item">
+                  <i class="fa-solid fa-location-dot"></i>
+                  From
+                  <i class="fa-solid fa-arrow-down"></i>
+                </a>
+                <a href="" class="booking-detail-item">
+                  <i class="fa-solid fa-location-dot"></i>
+                  From
+                  <i class="fa-solid fa-arrow-down"></i>
+                </a>
+                <a href="" class="booking-detail-item">
+                  <i class="fa-solid fa-location-dot"></i>
+                  From
+                  <i class="fa-solid fa-arrow-down"></i>
+                </a>
+                <a href="" class="booking-detail-item">
+                  <i class="fa-solid fa-location-dot"></i>
+                  From
+                  <i class="fa-solid fa-arrow-down"></i>
+                </a>
+                <a href="" class="booking-detail-item">
+                  <i class="fa-solid fa-location-dot"></i>
+                  From
+                  <i class="fa-solid fa-arrow-down"></i>
+                </a>
+              </div>
             </div>
           </div>
 
@@ -95,9 +110,494 @@
               <i class="fa-solid fa-chevron-right"></i>
             </a>
           </div>
+        </section>
+        <!-- ===== Popular Destinations ===== -->
+        <section class="popular-destinations">
+          <div class="container">
+            <h2 class="section-title">Popular Destinations</h2>
+
+            <div class="destinations-slider">
+              <!-- Prev -->
+              <div class="destinations-prev">
+                <a class="btn"><i class="fa-solid fa-chevron-left"></i></a>
+              </div>
+
+              <!-- Grid -->
+              <div class="destinations-grid">
+                <!-- Card 1 -->
+                <div class="destination-card">
+                  <img
+                    src="/assets/img/destination.jpg"
+                    alt="Saint Catherine’s Monastery"
+                  />
+                  <div class="destination-info">
+                    <h3>Saint Catherine’s Monastery</h3>
+                    <p>
+                      <i class="fa-solid fa-location-dot"></i> South Sinai,
+                      Egypt
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="destination-card">
+                  <img
+                    src="/assets/img/destination.jpg"
+                    alt="Church Of Transfiguration"
+                  />
+                  <div class="destination-info">
+                    <h3>Church Of Transfiguration</h3>
+                    <p>
+                      <i class="fa-solid fa-location-dot"></i> South Sinai,
+                      Egypt
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="destination-card">
+                  <img
+                    src="/assets/img/destination.jpg"
+                    alt="Taba Border Crossing"
+                  />
+                  <div class="destination-info">
+                    <h3>Taba Border Crossing</h3>
+                    <p><i class="fa-solid fa-location-dot"></i> Taba, Egypt</p>
+                  </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="destination-card">
+                  <img src="/assets/img/destination.jpg" alt="Jerusalem" />
+                  <div class="destination-info">
+                    <h3>Jerusalem</h3>
+                    <p>
+                      <i class="fa-solid fa-location-dot"></i> Capital of Israel
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Next -->
+              <div class="destinations-next">
+                <a class="btn"><i class="fa-solid fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- ===== About Section ===== -->
+      <section class="about">
+        <div class="about-container">
+          <!-- Left: Image -->
+          <div class="about-image">
+            <img src="/assets/img/about.png" alt="Pilgrimage" />
+
+            <!-- Info boxes -->
+            <div class="about-box top-left">
+              <h3>5000+</h3>
+              <p>Pilgrimages</p>
+            </div>
+            <div class="about-box top-right">
+              <h3>300+</h3>
+              <p>Destinations</p>
+            </div>
+            <div class="about-box bottom-right">
+              <h3>150+</h3>
+              <p>Hotels</p>
+            </div>
+          </div>
+
+          <!-- Right: Content -->
+          <div class="about-content">
+            <h2>About Our Journeys</h2>
+            <p>
+              We have organized thousands of pilgrimages, connected hundreds of
+              destinations, and partnered with trusted hotels to bring you a
+              seamless travel experience.
+            </p>
+            <a href="#" class="btn-join">Join Now</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Banner Section ===== -->
+      <section class="banner">
+        <div class="banner-overlay">
+          <div class="banner-content">
+            <h2>
+              Get ready to <br />
+              <span>experience a new <br />and fulfilling moment in life</span>
+            </h2>
+          </div>
+        </div>
+
+        <!-- Play Button -->
+        <a href="#" class="banner-play">
+          <i class="fa-solid fa-play"></i>
+        </a>
+      </section>
+
+      <!-- ===== Our Pilgrimages Section ===== -->
+      <section class="pilgrimages">
+        <div class="container">
+          <h2 class="section-title">Our Pilgrimages</h2>
+
+          <!-- Tabs -->
+          <div class="tabs">
+            <button class="tab active">Single</button>
+            <button class="tab">Couple</button>
+            <button class="tab">Group</button>
+          </div>
+
+          <!-- Cards Carousel -->
+          <div class="pilgrimage-cards">
+            <!-- Card 1 -->
+            <div class="card">
+              <img
+                src="/assets/img/pilgrimage.png"
+                alt="A Life Changing Journey"
+              />
+              <div class="card-info">
+                <span class="status available">Available</span>
+                <span class="days">14 Days</span>
+                <h3>A Life Changing Journey</h3>
+                <p>14 Days Pilgrimage and Leisure to the Holy Land</p>
+                <p>
+                  <strong>Pilgrimage Chaplain</strong><br />Fr. John Dela Cruz,
+                  SSP
+                </p>
+                <div class="price">
+                  <span>3,148$<small>/Person</small></span>
+                  <a href="#" class="btn-details">View Details</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="card">
+              <img src="/assets/img/pilgrimage.png" alt="Holy Week in Italy" />
+              <div class="card-info">
+                <span class="status available">Available</span>
+                <span class="days">14 Days</span>
+                <h3>Holy Week in Italy</h3>
+                <p>14 Days Pilgrimage and Leisure to the Holy Land</p>
+                <p>
+                  <strong>Pilgrimage Chaplain</strong><br />Fr. John Dela Cruz,
+                  SSP
+                </p>
+                <div class="price">
+                  <span>3,148$<small>/Person</small></span>
+                  <a href="#" class="btn-details">View Details</a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="card">
+              <img
+                src="/assets/img/pilgrimage.png"
+                alt="Marian Shrine of Portugal"
+              />
+              <div class="card-info">
+                <span class="status available">Available</span>
+                <span class="days">14 Days</span>
+                <h3>Marian Shrine of Portugal</h3>
+                <p>14 Days Pilgrimage and Leisure to the Holy Land</p>
+                <p>
+                  <strong>Pilgrimage Chaplain</strong><br />Fr. John Dela Cruz,
+                  SSP
+                </p>
+                <div class="price">
+                  <span>3,148$<small>/Person</small></span>
+                  <a href="#" class="btn-details">View Details</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Pilgrimage Detail -->
+          <div class="pilgrimage-detail">
+            <div class="images">
+              <img src="/assets/img/detail.jpg" alt="Main" class="main-img" />
+              <div class="gallery">
+                <img src="/assets/img/detail.jpg" alt="Gallery" />
+                <img src="/assets/img/detail.jpg" alt="Gallery" />
+                <img src="/assets/img/detail.jpg" alt="Gallery" />
+                <img src="/assets/img/detail.jpg" alt="Gallery" />
+              </div>
+            </div>
+
+            <div class="detail-info">
+              <span class="status available">Available</span>
+              <span class="days">14 Days</span>
+              <p class="date">14 FEB 2023</p>
+              <h3>A Life Changing Journey</h3>
+              <p class="countries">Egypt • Israel • Jordan</p>
+              <p>14 Days Pilgrimage and Leisure to the Holy Land</p>
+
+              <h4>The Itinerary <span>Feb 14-28, 2023</span></h4>
+              <ul class="itinerary">
+                <li>
+                  <strong>Day 1:</strong> Manila, Philippines – Cairo, Egypt
+                </li>
+                <li><strong>Day 2:</strong> Cairo, Egypt</li>
+                <li><strong>Day 3:</strong> Saint Catherine’s Monastery</li>
+                <li>
+                  <strong>Day 4:</strong> Taba Border Crossing – Bethlehem
+                </li>
+                <li><strong>Day 5:</strong> Jerusalem</li>
+                <li><strong>Day 6:</strong> Jerusalem</li>
+                <li><strong>Day 7:</strong> Jericho – Dead Sea</li>
+                <li><strong>Day 8:</strong> Jaffa – Haifa – Tiberias</li>
+                <li><strong>Day 9:</strong> Nazareth – Cana – Mt. Tabor</li>
+                <li><strong>Day 10:</strong> Sea of Galilee</li>
+                <li>
+                  <strong>Day 11:</strong> Tiberias – Sheik Hussein Border
+                  Crossing – Mt. Nebo
+                </li>
+                <li><strong>Day 12:</strong> Amman – Petra Excursion</li>
+                <li><strong>Day 13:</strong> Amman – Madaba – Departure</li>
+                <li><strong>Day 14:</strong> Manila</li>
+              </ul>
+
+              <div class="detail-footer">
+                <span class="price">3,148$<small>/Person</small></span>
+                <a href="#" class="btn-primary">Join Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ===== Discount ===== -->
+      <section class="discount">
+        <div class="discount-overlay">
+          <h2 class="discount-title">
+            Don’t Miss The 10% Discount if <br />
+            You Book Today
+          </h2>
+          <a href="#contact" class="discount-btn">Contact Us</a>
+        </div>
+      </section>
+    </div>
+
+    <!-- ===== Insights ===== -->
+    <section class="insights">
+      <div class="container">
+        <h2 class="insights-title">Featured Insights</h2>
+
+        <div class="insights-grid">
+          <!-- Card 1 -->
+          <div class="insight-card">
+            <img src="/assets/img/insight.jpg" alt="Day Trips From Rome" />
+            <div class="insight-content">
+              <h3>Day Trips From Rome</h3>
+              <p>Lorem ipsum velit interdum, ac aliquet odio mattis.</p>
+              <div class="insight-meta">
+                <span><i class="fa fa-user"></i> By Vatican.com</span>
+                <span><i class="fa fa-calendar"></i> 02/04/2023</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="insight-card">
+            <img
+              src="/assets/img/insight.jpg"
+              alt="The Pilgrims’ Center at PTAA"
+            />
+            <div class="insight-content">
+              <h3>The Pilgrims’ Center at PTAA</h3>
+              <p>Lorem ipsum velit interdum, ac aliquet odio mattis.</p>
+              <div class="insight-meta">
+                <span><i class="fa fa-user"></i> By Vatican.com</span>
+                <span><i class="fa fa-calendar"></i> 02/04/2023</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="insight-card">
+            <img
+              src="/assets/img/insight.jpg"
+              alt="Pope Benedict XVI – Easter Mass"
+            />
+            <div class="insight-content">
+              <h3>Pope Benedict XVI – Easter Mass</h3>
+              <p>Lorem ipsum velit interdum, ac aliquet odio mattis.</p>
+              <div class="insight-meta">
+                <span><i class="fa fa-user"></i> By Vatican.com</span>
+                <span><i class="fa fa-calendar"></i> 02/04/2023</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="insight-card">
+            <img src="/assets/img/insight.jpg" alt="Jordan River" />
+            <div class="insight-content">
+              <h3>Jordan River</h3>
+              <p>Lorem ipsum velit interdum, ac aliquet odio mattis.</p>
+              <div class="insight-meta">
+                <span><i class="fa fa-user"></i> By Vatican.com</span>
+                <span><i class="fa fa-calendar"></i> 02/04/2023</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="insight-card">
+            <img src="/assets/img/insight.jpg" alt="Your Spiritual Journey" />
+            <div class="insight-content">
+              <h3>Your Spiritual Journey</h3>
+              <p>Lorem ipsum velit interdum, ac aliquet odio mattis.</p>
+              <div class="insight-meta">
+                <span><i class="fa fa-user"></i> By Vatican.com</span>
+                <span><i class="fa fa-calendar"></i> 02/04/2023</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="insight-card">
+            <img
+              src="/assets/img/insight.jpg"
+              alt="The Church of Transfiguration"
+            />
+            <div class="insight-content">
+              <h3>The Church of Transfiguration</h3>
+              <p>Lorem ipsum velit interdum, ac aliquet odio mattis.</p>
+              <div class="insight-meta">
+                <span><i class="fa fa-user"></i> By Vatican.com</span>
+                <span><i class="fa fa-calendar"></i> 02/04/2023</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="load-more">
+          <a href="#" class="btn-load"
+            >Load more <i class="fa fa-chevron-down"></i
+          ></a>
         </div>
       </div>
-    </div>
+    </section>
+
+    <!-- ===== Testimonials ===== -->
+    <section class="testimonials">
+      <div class="container">
+        <h2 class="section-title">What Our Pilgrims Say</h2>
+
+        <div class="testimonials-wrapper">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <p class="quote">
+              Our trip to Jerusalem was truly a once in a lifetime experience
+              and we are so grateful to everyone that made it happen seamlessly.
+            </p>
+            <h3 class="name">- John D.</h3>
+            <p class="role">Blessed Pilgrim</p>
+            <div class="rating">⭐ 4.5</div>
+            <img src="assets/img/user.png" alt="John D" class="avatar" />
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <p class="quote">
+              Our trip to Jerusalem was truly a once in a lifetime experience
+              and we are so grateful to everyone that made it happen seamlessly.
+            </p>
+            <h3 class="name">- Mary Ann D.</h3>
+            <p class="role">Blessed Pilgrim</p>
+            <div class="rating">⭐ 4.5</div>
+            <img src="assets/img/user.png" alt="Mary Ann" class="avatar" />
+          </div>
+        </div>
+
+        <!-- Navigation -->
+        <div class="testimonial-nav">
+          <button class="prev-btn"><i class="fa fa-chevron-left"></i></button>
+          <button class="next-btn"><i class="fa fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Logo -->
+        <div class="footer-logo">
+          <img src="assets/img/logo.png" alt="Logo" />
+        </div>
+
+        <!-- Links -->
+        <div class="footer-links">
+          <div>
+            <h4>About</h4>
+            <ul>
+              <li><a href="#">About Polaris</a></li>
+              <li><a href="#">How it works</a></li>
+              <li><a href="#">Pilgrimages</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Forum</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Contact us</a></li>
+              <li><a href="#">Privacy policy</a></li>
+              <li><a href="#">Terms of service</a></li>
+              <li><a href="#">Trust and safety</a></li>
+              <li><a href="#">Accessibility</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <h4>Partner with us</h4>
+            <ul>
+              <li><a href="#">Partnership programs</a></li>
+              <li><a href="#">Affiliate program</a></li>
+              <li><a href="#">Connectivity partners</a></li>
+              <li><a href="#">Promotions and events</a></li>
+              <li><a href="#">Integrations</a></li>
+              <li><a href="#">Community</a></li>
+              <li><a href="#">Loyalty program</a></li>
+            </ul>
+          </div>
+
+          <!-- Contact -->
+          <div>
+            <h4>Contact us</h4>
+            <p>Manila, Philippines</p>
+            <p>travel@travelandtours.com</p>
+            <p>+63 912 345 6729</p>
+
+            <div class="newsletter">
+              <h4>Subscribe to our <span>Newsletter</span></h4>
+              <form>
+                <input type="email" placeholder="Enter your email" />
+                <button type="submit">Subscribe</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom -->
+      <div class="footer-bottom">
+        <p>© 2023 LoremIpsum Travel Company - All right reserved.</p>
+        <ul>
+          <li><a href="#">Review</a></li>
+          <li><a href="#">Tips</a></li>
+          <li><a href="#">Alerts</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+    </footer>
 
     <script src="/assets/js/main.js"></script>
   </body>
